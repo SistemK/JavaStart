@@ -13,7 +13,7 @@ class TelBook{
             telBook.put(name, value);
         }
         else {
-            telBook.put(name,List.of(number));
+            telBook.put(name,new ArrayList<>(List.of(number)));
         }
     }
 
@@ -33,7 +33,6 @@ public class dz {
         telbook.addNumber("Петров", "79819111231");
         telbook.addNumber("Иванов", "79816574477");
         telbook.addNumber("Иванов", "79811235590");
-        telbook.addNumber("Сидоров", "79819110000");
         telbook.addNumber("Иванов", "798191254322");
         telbook.addNumber("Петров", "79819111231");
         telbook.addNumber("Петров", "79819111231");
